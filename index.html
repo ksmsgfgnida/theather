@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style_index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <a class="navbar-brand" href="index.html">
+                <img src="log.png" alt=""></a>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Меню">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav" style="width: 100%;">
+                        <a class="nav-link active" aria-current="page" href="#">Билеты</a>
+                        <a class="nav-link" href="#">Репертуар</a>
+                        <a class="nav-link" href="#">О театре</a>
+                        <a class="nav-link" href="contact.html">Контакты</a>
+                    </div>
+                </div>
+                <div class="navbar-nav1">
+                    <a class="nav-link" href="menu.html">Меню</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="telo">
+    <div class="cl">
+        <h4>лого</h4>
+    </div>
+    <div class="bood">
+        <h>сезон и театр</h>
+    </div>
+    </div>
+    <div class="carta">
+    </div>
+    <div class="telo3">
+        <div class="artist">
+            <h2>Арстист</h2>
+        </div>
+        <div class="vpn">
+            <h2>ВПН</h2>
+        </div>
+        <div class="golos">
+            <h2>Голосование</h2>
+        </div>
+    </div>
+    <div class="footer_up">
+        <h2>Предстоящие</h2>  
+    </div>
+    <div class="kk">
+        <h2>узначки</h2>
+    </div>
+    <div class="footer_up">
+    </div>
+    <div class="footer_down">
+    </div>
+    <button class="arrow-button" onclick="scrollToTop()" style="position: fixed; bottom: 2vw; right: 1vw;">&#8679;</button>
+
+    <script>
+        window.addEventListener('scroll', function() {
+        var button = document.querySelector('.arrow-button');
+        if (window.scrollY > 100) { // кнопка появляется, когда прокручено более 100 пикселей
+            button.style.display = 'block'; // отображаем кнопку
+        } else {
+            button.style.display = 'none'; // скрываем кнопку
+        }
+        });
+        function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth" // добавляем плавность прокрутке
+        });
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

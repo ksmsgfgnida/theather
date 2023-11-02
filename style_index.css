@@ -1,0 +1,207 @@
+body{
+    background-color: #F2F2ED;
+    margin: 0;
+
+}
+.header{
+    align-content: center;
+    justify-content: space-around;
+    display: flex;
+    height: 4vw;
+    color: #0000;
+    font-family: Playfair Display SC;
+    font-size: 1.3vw; /* 2% of the viewport width */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+h1{
+    color: #000;
+    font-family: Playfair Display SC;
+    font-size: 1.3vw; /* 2% of the viewport width */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+h4{
+    width: 480px;
+    height: 81px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Playfair Display SC;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+h2{
+    color: #000;
+    font-family: Playfair Display SC;
+    font-size: 1.7vw; /* 2% of the viewport width */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.bood{
+    justify-self: left;
+    width: 57.9vw;
+    height: 23vw; /* 30% of the viewport height */
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFC224;
+}
+.cl{
+    width: 41vw;
+    height: 23vw; /* 30% of the viewport height */
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #B8AF9E;
+    justify-content: center;
+    display: flex;
+}
+.telo,
+.telo3,
+.telo1{
+    justify-content: left;
+    align-self: center;
+    display: flex;
+}
+.carta{
+    width: 98.9vw;
+    height: 35vw; /* 70% of the viewport height */
+    flex-shrink: 0;
+}
+
+.bood1{
+    width: 38.9vw;
+    height: 35vw; /* 50% of the viewport height */
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #F0D92A;
+}
+.cl1{
+    width: 60vw;
+    height: 35vw; /* 50% of the viewport height */
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #F2F2ED;
+}
+
+.kk{
+    width: 98.9vw;
+    height: 27vw; /* 50% of the viewport height */
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #D9D9D9;
+}
+
+.artist,
+.vpn,
+.golos{
+    width: 32.97vw;
+    height: 7vw; /* 50% of the viewport height */
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #F2F2ED;
+    justify-content: center;
+    display: flex;
+}
+
+.footer_up{
+    width: 98.9vw;
+    height: 5vw; /* 50% of the viewport height */
+    border: 1px solid #000;
+    background: #F2F2ED;
+}
+
+.footer_down{
+    width: 98.9vw;
+    height: 10vw; /* 50% of the viewport height */
+    border: 1px solid #000;
+    background: #F2F2ED;
+}
+
+.nav-link{
+    color: #000;
+
+}
+.nav-link:hover {
+    color: #F0D92A;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-start;
+    width: 360px;
+    height: 73px;
+    color: #000;
+    line-height: normal;
+    text-transform: uppercase;
+    justify-content: flex-start; /* Логотип будет выравниваться слева */
+}
+
+.navbar-brand img {
+    width: 13vw; /* Логотип будет уменьшаться при уменьшении родительского элемента */
+}
+
+
+.arrow-button{
+    background-color: white; /* задаем белый цвет */
+    border-radius: 50%; /* делаем кнопку круглой */
+    font-size: 1.5rem; /* задаем размер шрифта */
+    width: 5vw; /* задаем ширину кнопки */
+    height: 5vw; /* задаем высоту кнопки */
+    border: none; /* убираем границу */
+    cursor: pointer; /* добавляем стиль курсора при наведении */
+    display: none; /* кнопка изначально скрыта */
+  }
+
+
+
+  .navbar-toggler:hover{
+    color: #F0D92A;
+  }
+
+  .navbar-toggler{
+    display: flex;
+    padding-inline-end:0%;
+    color: #000;
+    width: 3vw;
+    list-style-type: style none; 
+  }
+
+  .container-fluid{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .navbar {
+    width: 100%; /* 100% of the parent container's width */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+  }
+  .navbar-nav1 {
+    display: flex;
+    flex-grow: 0.2;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+  }
