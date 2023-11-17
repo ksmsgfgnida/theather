@@ -10,7 +10,7 @@ body{
     height: 4vw;
     color: #0000;
     font-family: Playfair Display SC;
-    font-size: 1.3vw; /* 2% of the viewport width */
+    font-size: 1.1vw; /* 2% of the viewport width */
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -43,8 +43,18 @@ h4{
 
 h2{
     color: #000;
-    font-family: Playfair Display SC;
-    font-size: 1.7vw; /* 2% of the viewport width */
+    font-family: Nokora;
+    font-size: 2vw; /* 2% of the viewport width */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+h3{
+    color: #000;
+    font-family: Nokora;
+    font-size: 3vw; /* 2% of the viewport width */
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -53,81 +63,95 @@ h2{
 
 .bood{
     justify-self: left;
-    width: 57.9vw;
+    width: 79.9vw;
     height: 23vw; /* 30% of the viewport height */
     flex-shrink: 0;
     border: 1px solid #000;
-    background: #FFC224;
 }
 .cl{
-    width: 41vw;
+    width: 18.98vw;
     height: 23vw; /* 30% of the viewport height */
     flex-shrink: 0;
     border: 1px solid #000;
-    background: #B8AF9E;
     justify-content: center;
     display: flex;
 }
 .telo,
-.telo3,
-.telo1{
+.telo2{
     justify-content: left;
     align-self: center;
     display: flex;
 }
-.carta{
+
+.slii{
     width: 98.9vw;
-    height: 35vw; /* 70% of the viewport height */
+    height: 33vw; /* 70% of the viewport height */
     flex-shrink: 0;
 }
 
-.bood1{
-    width: 38.9vw;
-    height: 35vw; /* 50% of the viewport height */
-    flex-shrink: 0;
-    border: 1px solid #000;
-    background: #F0D92A;
-}
-.cl1{
-    width: 60vw;
-    height: 35vw; /* 50% of the viewport height */
+
+.podsob{
+    width: 98.9vw;
+    height: 29vw; /* 50% of the viewport height */
     flex-shrink: 0;
     border: 1px solid #000;
     background: #F2F2ED;
-}
-
-.kk{
-    width: 98.9vw;
-    height: 27vw; /* 50% of the viewport height */
-    flex-shrink: 0;
-    border: 1px solid #000;
-    background: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 .artist,
-.vpn,
 .golos{
-    width: 32.97vw;
-    height: 7vw; /* 50% of the viewport height */
+    width: 28.92vw;
+    height: 35vw; /* 50% of the viewport height */
     flex-shrink: 0;
     border: 1px solid #000;
-    background: #F2F2ED;
-    justify-content: center;
+}
+.artist{
+    background-color: #F0D92A;
+    align-items: center;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
 }
 
-.footer_up{
-    width: 98.9vw;
-    height: 5vw; /* 50% of the viewport height */
-    border: 1px solid #000;
-    background: #F2F2ED;
+.artist img{
+    width: 13vw;
+
 }
 
-.footer_down{
-    width: 98.9vw;
-    height: 10vw; /* 50% of the viewport height */
+.golos{
+    background-color: #D9D9D9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.golos img{
+    width: 20vw;
+}
+
+
+.vpn{
+    width: 40.97vw;
+    height: 35vw; /* 50% of the viewport height */
+    flex-shrink: 0;
     border: 1px solid #000;
-    background: #F2F2ED;
+    background-color: #B8AF9E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+
+.vpn img{
+    width: 45vw;
 }
 
 .nav-link{
@@ -140,13 +164,14 @@ h2{
 
 .logo{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     width: 360px;
     height: 73px;
     color: #000;
     line-height: normal;
     text-transform: uppercase;
-    justify-content: flex-start; /* Логотип будет выравниваться слева */
+    justify-content: center; /* Логотип будет выравниваться слева */
+    margin-bottom: 1.5vw;
 }
 
 .navbar-brand img {
@@ -165,6 +190,9 @@ h2{
     display: none; /* кнопка изначально скрыта */
   }
 
+  .arrow-button:hover{
+    background-color: #F0D92A; /* задаем белый цвет */
+  }
 
 
   .navbar-toggler:hover{
@@ -201,7 +229,139 @@ h2{
   .navbar-nav1 {
     display: flex;
     flex-grow: 0.2;
-    justify-content: center;
+    justify-content: space-around;
     list-style-type: none;
     padding: 0;
+    align-items: center;
   }
+
+  .footer_up img{
+    width: 13vw; /* Логотип будет уменьшаться при уменьшении родительского элемента */
+}
+
+.ic{
+    width: 1vw;
+    height: 1vw;
+}
+
+.text{
+    margin-top: 6vw;
+}
+
+.sob{
+    width: 98.9vw;
+    height: 5vw; /* 50% of the viewport height */
+    border: 1px solid #000;
+    background: #F2F2ED;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_up{
+    width: 98.9vw;
+    height: 5vw; /* 50% of the viewport height */
+    border: 1px solid #000;
+    background: #F2F2ED;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_down{
+    width: 98.9vw;
+    height: 7.4vw; /* 50% of the viewport height */
+    border: 1px solid #000;
+    background: #F2F2ED;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.credit{
+    width: 83.9vw;
+    height: 7.4vw; /* 50% of the viewport height */
+    display: flex;
+    justify-content: center;
+    margin-left: 13vw;
+    align-items: center;
+}
+.svz{
+    width: 10vw;
+    height: 4vw; /* 50% of the viewport height */
+    justify-content: center;
+    margin-right: 2vw;
+    margin-bottom: 0.3vw;
+}
+
+.icons img{
+    width: 2vw;
+
+}
+
+.icons{
+    width: 7vw;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0.5vw;
+    margin-top: 0.5vw;
+}
+
+h7{
+    color: #000;
+    text-align: center;
+    font-family: Playfair Display SC;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+h8{
+    color: #000;
+    text-align: center;
+    font-family: Playfair Display SC;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 2vw;
+}
+
+.vetv1{
+    display: flex;
+    height: 4vw;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.vetv2{
+    display: flex;
+    height: 4vw;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.ticet{
+    margin-bottom: 12%;
+    width: 15%;
+    height: 4vw;
+    margin-left: 80%;
+    background-color: #F0D92A;
+}
+
+
+.carousel-indicators{
+    margin-bottom: 6%;
+}
+
+.linkk{
+    text-decoration: none;
+}
+
+.podsob img{
+    width: 10vw;
+}
