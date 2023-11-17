@@ -92,7 +92,7 @@ h3{
 
 .podsob{
     width: 98.9vw;
-    height: 29vw; /* 50% of the viewport height */
+    height: 35vw; /* 50% of the viewport height */
     flex-shrink: 0;
     border: 1px solid #000;
     background: #F2F2ED;
@@ -364,6 +364,7 @@ h8{
 
 .podsob img{
     width: 10vw;
+    border-radius: 40% 40% 0 0;
 }
 
 .sp1,
@@ -372,4 +373,48 @@ h8{
     align-items: center;
     display:flex;
     flex-direction: column;
+}
+
+.sp1:hover,
+.sp2:hover,
+.sp3:hover{
+    .spec.sp1:hover{
+
+    }
+}
+
+
+.sp1.spec:hover{
+    background-color: #F0D92A;
+}
+
+.foto{
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+h12{
+    color: #000;
+    font-family: Playfair Display SC;
+    font-size: 1.3vw; /* 2% of the viewport width */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.spec{
+    width: 12vw;
+    height: 17vw;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40% 40% 0 0;
+    background-color: #F2F2ED;
 }
